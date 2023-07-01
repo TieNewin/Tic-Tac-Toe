@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgb(34, 34, 34);
+    color: white;
+}
+
+div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#turn {
+    text-align: center;
+}
+
+.button {
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+}
+
+#board {
+    width: 450px;
+    height: 450px;
+    background-color: whitesmoke;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 147px;
+    height: 147px;
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.horizontal-line {
+    border-bottom: 3px solid black;
+}
+
+.vertical-line {
+    border-right: 3px solid black;
+}
+
+.winner {
+    color: red;
+}
